@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:synk/core/theme/app_pallete.dart';
 
-class AppTheme{
+class AppTheme {
   static final darkThemeMode = ThemeData.dark().copyWith(
     scaffoldBackgroundColor: Pallete.backgroundColor,
     inputDecorationTheme: InputDecorationTheme(
@@ -9,14 +9,16 @@ class AppTheme{
       enabledBorder: OutlineInputBorder(
         borderSide: BorderSide(
           color: Pallete.borderColor,
-          width:3,
+          width: 3,
         ),
-      ),  
+        borderRadius: BorderRadius.circular(25),
+      ),
       focusedBorder: OutlineInputBorder(
         borderSide: BorderSide(
           color: Pallete.gradient2,
           width: 3,
         ),
+        borderRadius: BorderRadius.circular(25),
       ),
     ),
   );
