@@ -14,7 +14,7 @@ class _SignupPageState extends State<SignupPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: const Padding(
+      body: Padding(
         padding: const EdgeInsets.all(15.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -38,8 +38,10 @@ class _SignupPageState extends State<SignupPage> {
             CustomField(
               hintText: "Password",
             ),
-            SizedBox(height: 15),
+            SizedBox(height: 20),
             AuthGradientButton(),
+            SizedBox(height: 20),
+            
           ],
         ),
       ),
