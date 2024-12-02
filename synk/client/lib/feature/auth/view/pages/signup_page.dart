@@ -62,6 +62,7 @@ class _SignupPageState extends State<SignupPage> {
               SizedBox(height: 20),
               AuthGradientButton(
                 ButtonText: "Sign Up",
+                onTap: () {},
               ),
               SizedBox(height: 20),
               RichText(

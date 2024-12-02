@@ -55,6 +55,7 @@ class _LoginPageState extends State<LoginPage> {
               SizedBox(height: 20),
               AuthGradientButton(
                 ButtonText: "Sign In",
+                onTap: () {},
               ),
               SizedBox(height: 20),
               RichText(
