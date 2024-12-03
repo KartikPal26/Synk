@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:synk/core/theme/theme.dart';
 import 'package:synk/feature/auth/view/pages/login_page.dart';
+// ignore: unused_import
 import 'package:synk/feature/auth/view/pages/signup_page.dart';
 
 void main() {
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: AppTheme.darkThemeMode,
       home: const LoginPage(),
     );
