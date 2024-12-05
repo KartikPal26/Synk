@@ -7,14 +7,14 @@ class AppTheme {
     inputDecorationTheme: InputDecorationTheme(
       contentPadding: const EdgeInsets.all(27),
       enabledBorder: OutlineInputBorder(
-        borderSide: BorderSide(
+        borderSide: const BorderSide(
           color: Pallete.borderColor,
           width: 3,
         ),
         borderRadius: BorderRadius.circular(25),
       ),
       focusedBorder: OutlineInputBorder(
-        borderSide: BorderSide(
+        borderSide: const BorderSide(
           color: Pallete.gradient2,
           width: 3,
         ),

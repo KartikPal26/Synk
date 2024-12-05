@@ -34,35 +34,35 @@ class _LoginPageState extends State<LoginPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
+              const Text(
                 'Sign In.',
                 style: TextStyle(
                   fontSize: 50,
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(height: 30),
+              const SizedBox(height: 30),
               CustomField(
                 hintText: "Email",
                 controller: emailController,
               ),
-              SizedBox(height: 15),
+              const SizedBox(height: 15),
               CustomField(
                 hintText: "Password",
                 controller: passwordController,
                 isObsecureText: true,
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               AuthGradientButton(
                 ButtonText: "Sign In",
                 onTap: () {},
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               RichText(
                 text: TextSpan(
                 text: "Don/'t have an account? ",
                   style: Theme.of(context).textTheme.titleMedium,
-                  children: [
+                  children: const [
                     TextSpan(
                       text: "Sign Up",
                       style: TextStyle(

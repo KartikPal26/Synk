@@ -26,7 +26,7 @@ class AuthGradientButton extends StatelessWidget {
               shadowColor: const Color.fromRGBO(0, 0, 0, 0)),
           child: Text(
               ButtonText,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 17,
                 fontWeight: FontWeight.w600,
               )),
